@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build accounts service (debug)",
+			"detail": "Builds service/accounts package for debugging",
+			"type": "cargo",
+			"command": "build --package serice-accounts"
+		},
+		{
+			"label": "Build accounts service (release)",
+			"detail": "Builds accounts serice for deployment",
+			"type": "cargo",
+			"command": "build --package service-accounts --release"
+		}
+	]
+}
